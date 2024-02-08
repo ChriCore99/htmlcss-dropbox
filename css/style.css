@@ -20,14 +20,19 @@ a {
 
 /* LAYOUT */
 /* header */
-.row {
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.row-menù {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    height: 60px;
+    height: 50px;
 }
 
-.row ul {
+.row-menù ul {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -35,8 +40,15 @@ a {
 }
 
 .btn {
-    background-color: blue;
+    background-color: #0061FF;
     padding: 8px;
+    width: fit-content;
+}
+
+.btn-inizia {
+    border: none;
+    background-color: #0061FF;
+    color: white;
 }
 
 .start {
@@ -47,12 +59,61 @@ a {
     padding-right: 15px;
 }
 
-/* UTILITY */
-.btn-inizia {
-    border: none;
-    background-color: blue;
-    color: white;
+/* main */
+/* hero */
+.hero {
+    background-color: #B4D0E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.hero .container {
+    width: 1200px;
+}
+
+/* hero title */
+.hero-title {
+    font-size: 55px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* hero text + img */
+.hero .row {
+    display: flex;
+}
+
+.text-hero {
+    font-size: 18px;
+}
+
+.col-4 {
+    flex-basis: 40%;
+}
+
+.col-4 li {
+    margin-bottom: 15px;
+}
+
+.col-8 {
+    flex-basis: 60%;
+}
+
+.btn-freetrial {
+    border: none;
+    background-color: #0061FF;
+    color: white;
+    font-size: 16px;
+}
+
+.freccia-giù  img {
+    max-width: 50px;
+}
+
+
+/* UTILITY */
+
 
 /* DEBUG */
 .debug .col {
