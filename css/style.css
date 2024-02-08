@@ -17,3 +17,44 @@ a {
     text-decoration: none;
     color: currentColor;
 }
+
+/* LAYOUT */
+/* header */
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.row ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 100%;
+}
+
+.btn {
+    background-color: blue;
+    padding: 8px;
+}
+
+.start {
+    padding-left: 15px;
+}
+
+.end {
+    padding-right: 15px;
+}
+
+/* UTILITY */
+.btn-inizia {
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+/* DEBUG */
+.debug .col {
+    border: 2px solid black;
+}
