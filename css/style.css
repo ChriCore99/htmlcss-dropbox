@@ -176,6 +176,10 @@ header {
     line-height: 35px;
 }
 
+.buy {
+    color: blue;
+}
+
 
 /* UTILITY */
 .card-user {
@@ -204,6 +208,19 @@ header {
 
 .textcol-40 {
     flex-basis: 40%;
+}
+
+.card-info .btn {
+    margin-bottom: 30px;
+}
+
+.card-info hr {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.card-info ul b {
+    padding-bottom: 35px;
 }
 
 /* DEBUG */
