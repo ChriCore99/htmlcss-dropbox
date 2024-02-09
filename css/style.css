@@ -19,6 +19,10 @@ a {
 }
 
 /* LAYOUT */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 /* header */
 header {
     padding-top: 15px;
@@ -63,19 +67,18 @@ header {
 /* hero */
 .hero {
     background-color: #B4D0E7;
-    display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-bottom: 90px;
 }
 
 .hero .container {
-    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* hero title */
 .hero-title {
     font-size: 55px;
-    margin-bottom: 30px;
     padding-top: 30px;
 }
 
@@ -88,15 +91,21 @@ header {
     font-size: 18px;
 }
 
-.col-4 {
+.col-40 {
     flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
 }
 
-.col-4 li {
+.col-40 li {
     margin-bottom: 15px;
 }
 
-.col-8 {
+.col-40 p {
+    margin-top: auto;
+}
+
+.col-60 {
     flex-basis: 60%;
 }
 
@@ -108,8 +117,28 @@ header {
 }
 
 .freccia-giù  img {
-    max-width: 50px;
+    max-width: 40px;
 }
+
+/* cards title and buttons*/
+.container-sm {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-sm h2 {
+    font-size: 30px;
+}
+
+.container-sm .title {
+    margin-bottom: 50px;
+}
+
+.container-sm span {
+    margin-right: 45px;
+}
+
+/* cards */
 
 
 /* UTILITY */
