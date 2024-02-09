@@ -139,6 +139,27 @@ header {
 }
 
 /* cards */
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    flex-basis: calc(100% / 3);
+}
+
+.card {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.img-card {
+    text-align: center;
+}
+
+.img-card img {
+    max-width: 20px;
+}
 
 
 /* UTILITY */
@@ -146,5 +167,9 @@ header {
 
 /* DEBUG */
 .debug .col {
+    border: 2px solid black;
+}
+
+.debug .col-4 {
     border: 2px solid black;
 }
