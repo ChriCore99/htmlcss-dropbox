@@ -125,16 +125,16 @@ header {
     margin: 0 auto;
 }
 
-.container-sm h2 {
-    font-size: 30px;
-}
-
 .container-sm .title {
     margin-bottom: 50px;
 }
 
 .container-sm span {
     margin-right: 45px;
+}
+
+.btn-scelta {
+    margin-bottom: 50px;
 }
 
 /* cards */
@@ -180,10 +180,34 @@ header {
     color: blue;
 }
 
+.container-cards {
+    margin-bottom: 150px;
+}
+
+/* prima foto e testo */
+.textcol-40 h2 {
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+
+.textcol-40 p {
+    margin-bottom: 60px;
+    padding-left: 50px;
+}
+
+.btn-white {
+    padding: 10px;
+    border: 2px solid black;
+}
+
 
 /* UTILITY */
 .card-user {
     border-bottom: 2px solid lightgrey;
+}
+
+.container-sm h2 {
+    font-size: 30px;
 }
 
 .img-ridim {
