@@ -161,9 +161,10 @@ header {
     padding-bottom: 10px;
 }
 
-.card-info h2 {
+.card-info h3 {
     margin-top: 30px;
     margin-bottom: 18px;
+    font-size: 25px;
 }
 
 .btn {
@@ -185,9 +186,10 @@ header {
 }
 
 /* prima foto e testo */
-.textcol-40 h2 {
+.textcol-40 h3 {
     padding-left: 50px;
     margin-bottom: 15px;
+    font-size: 25px;
 }
 
 .textcol-40 p {
@@ -200,6 +202,36 @@ header {
     border: 2px solid black;
 }
 
+.atrio {
+    margin-bottom: 160px;
+}
+
+/* sezione post cards */
+
+.bsns-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.drop-bsns {
+    margin-top: 45px;
+}
+
+.drop-bsns .row .col-4 {
+    flex-basis: calc((100% / 3) - 50px);
+    border: none;
+    margin-bottom: 60px;
+}
+
+.drop-bsns .col-4 h3 {
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+
+.drop-bsns .col-4 p {
+    font-size: 16px;
+}
 
 /* UTILITY */
 .card-user {
@@ -207,7 +239,7 @@ header {
 }
 
 .container-sm h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .img-ridim {
