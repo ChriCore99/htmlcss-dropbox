@@ -150,6 +150,35 @@ header {
     border: 2px solid lightgrey;
 }
 
+.col-100 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc(100%);
+    border: 2px solid lightgray;
+}
+
+.card-100 {
+    flex-basis: calc(100%);
+    text-align: center;
+}
+
+.col-70 {
+    display: flex;
+    flex-basis: 70%;
+}
+
+.col-30 {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center
+}
+
+.col-30 a {
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .card {
     padding-left: 30px;
     padding-right: 30px;
@@ -277,6 +306,10 @@ header {
 
 .card-info ul b {
     padding-bottom: 35px;
+}
+
+.card-100-bottom {
+    border-bottom: 2px solid lightgray;
 }
 
 /* DEBUG */
