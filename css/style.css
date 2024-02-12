@@ -235,6 +235,7 @@ header {
 .btn-white {
     padding: 10px;
     border: 2px solid black;
+    background-color: white;
 }
 
 .atrio {
@@ -299,11 +300,28 @@ header {
 
 .logo-xl div {
     padding-left: 45px;
+    margin-bottom: 50px;
 }
 
 .logo-xl img {
     width: 270px;
     padding-top: 40px;
+}
+
+/* banner azzurro post sponsor */
+.banner-post-sp {
+    background-color: #B4D0E7;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.banner-post-sp h2 {
+    color: #61082B;
+}
+
+.banner-post-sp .col-40 p {
+    margin-top: 0;
+    padding-top: 20px;
 }
 
 /* UTILITY */
