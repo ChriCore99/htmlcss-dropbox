@@ -349,6 +349,26 @@ header {
     border-bottom: 2px solid lightgray;
 }
 
+/* footer liste */
+.final-info {
+    background-color: black;
+    color: white;
+}
+
+footer .row {
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+footer .col h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+footer .col li {
+    margin-bottom: 15px;
+}
+
 /* UTILITY */
 main {
     margin-bottom: 130px;
