@@ -315,8 +315,8 @@ header {
     margin-bottom: 50px;
 }
 
-.card-info ul b {
-    padding-bottom: 35px;
+.card-info li {
+    margin-bottom: 25px;
 }
 
 .card-100-bottom {
