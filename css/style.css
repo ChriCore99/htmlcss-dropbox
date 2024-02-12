@@ -324,7 +324,36 @@ header {
     padding-top: 20px;
 }
 
+.banner-post-sp .btn-white {
+    border: none;
+}
+
+/* domande frequenti */
+.domande-freq .row {
+    flex-direction: column;
+}
+
+.domande-freq .col-domanda {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.frst-dom {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+.dom {
+    border-bottom: 2px solid lightgray;
+}
+
 /* UTILITY */
+main {
+    margin-bottom: 130px;
+}
+
 .card-user {
     border-bottom: 2px solid lightgrey;
 }
@@ -380,6 +409,18 @@ header {
 
 .big-title h2 {
     margin-bottom: 50px;
+}
+
+.domande-freq {
+    margin-top: 150px;
+}
+
+.domande-freq .col {
+    margin-bottom: 65px;
+}
+
+.domande-freq img {
+    width: 20px;
 }
 
 /* DEBUG */
