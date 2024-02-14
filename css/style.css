@@ -75,6 +75,10 @@ header {
     padding-top: 30px;
 }
 
+h1 {
+    margin-bottom: 65px;
+}
+
 /* hero text + img */
 .row {
     display: flex;
@@ -96,6 +100,10 @@ header {
 
 .col-40 p {
     margin-top: auto;
+}
+
+.hero .col-60 {
+    margin-bottom: -60px;
 }
 
 .col-60 {
